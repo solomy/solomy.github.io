@@ -7,18 +7,18 @@
   
   <title>ubuntu16.04+uhd+gnuradio安装流程 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="ubuntu16.04+uhd+gnuradio安装流程PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。安装流程1.更新软件包列表，更新系统软件sudo apt-get update sudo apt-get upgrade 2. 安装依赖包(仅适用于UBUNTU 16.04，其他版本需要的依赖包会有所不同)sudo apt-get inst">
+  <meta name="description" content="PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。安装流程1.更新软件包列表，更新系统软件sudo apt-get update sudo apt-get upgrade 2. 安装依赖包(仅适用于UBUNTU 16.04，其他版本需要的依赖包会有所不同)sudo apt-get install libfontconfig1-dev libxr">
 <meta name="keywords" content="communicate">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ubuntu16.04+uhd+gnuradio安装流程">
 <meta property="og:url" content="http://yoursite.com/2019/04/08/gnuradio_build/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="ubuntu16.04+uhd+gnuradio安装流程PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。安装流程1.更新软件包列表，更新系统软件sudo apt-get update sudo apt-get upgrade 2. 安装依赖包(仅适用于UBUNTU 16.04，其他版本需要的依赖包会有所不同)sudo apt-get inst">
+<meta property="og:description" content="PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。安装流程1.更新软件包列表，更新系统软件sudo apt-get update sudo apt-get upgrade 2. 安装依赖包(仅适用于UBUNTU 16.04，其他版本需要的依赖包会有所不同)sudo apt-get install libfontconfig1-dev libxr">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-08T16:04:13.446Z">
+<meta property="og:updated_time" content="2019-04-08T16:24:14.034Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ubuntu16.04+uhd+gnuradio安装流程">
-<meta name="twitter:description" content="ubuntu16.04+uhd+gnuradio安装流程PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。安装流程1.更新软件包列表，更新系统软件sudo apt-get update sudo apt-get upgrade 2. 安装依赖包(仅适用于UBUNTU 16.04，其他版本需要的依赖包会有所不同)sudo apt-get inst">
+<meta name="twitter:description" content="PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。安装流程1.更新软件包列表，更新系统软件sudo apt-get update sudo apt-get upgrade 2. 安装依赖包(仅适用于UBUNTU 16.04，其他版本需要的依赖包会有所不同)sudo apt-get install libfontconfig1-dev libxr">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -87,7 +87,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="ubuntu16-04-uhd-gnuradio安装流程"><a href="#ubuntu16-04-uhd-gnuradio安装流程" class="headerlink" title="ubuntu16.04+uhd+gnuradio安装流程"></a><center>ubuntu16.04+uhd+gnuradio安装流程</center></h1><h5 id="PS-老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。"><a href="#PS-老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。" class="headerlink" title="PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。"></a><center>PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。</center></h5><h1 id="安装流程"><a href="#安装流程" class="headerlink" title="安装流程"></a>安装流程</h1><h2 id="1-更新软件包列表，更新系统软件"><a href="#1-更新软件包列表，更新系统软件" class="headerlink" title="1.更新软件包列表，更新系统软件"></a>1.更新软件包列表，更新系统软件</h2><p>sudo apt-get update</p>
+        <h5 id="PS-老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。"><a href="#PS-老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。" class="headerlink" title="PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。"></a><center>PS:老杨让我去做关于chirp的调制解调工作，因此上手gnuradio。硬件平台为usrp-N210。</center></h5><h1 id="安装流程"><a href="#安装流程" class="headerlink" title="安装流程"></a>安装流程</h1><h2 id="1-更新软件包列表，更新系统软件"><a href="#1-更新软件包列表，更新系统软件" class="headerlink" title="1.更新软件包列表，更新系统软件"></a>1.更新软件包列表，更新系统软件</h2><p>sudo apt-get update</p>
 <p>sudo apt-get upgrade</p>
 <h2 id="2-安装依赖包-仅适用于UBUNTU-16-04，其他版本需要的依赖包会有所不同"><a href="#2-安装依赖包-仅适用于UBUNTU-16-04，其他版本需要的依赖包会有所不同" class="headerlink" title="2. 安装依赖包(仅适用于UBUNTU 16.04，其他版本需要的依赖包会有所不同)"></a>2. 安装依赖包(仅适用于UBUNTU 16.04，其他版本需要的依赖包会有所不同)</h2><p>sudo apt-get install libfontconfig1-dev libxrender-dev libpulse-dev \<br>swig g++ automake autoconf libtool python-dev libfftw3-dev \<br>libcppunit-dev libboost-all-dev libusb-dev libusb-1.0-0-dev fort77 \<br>libsdl1.2-dev git-core libqt4-dev python-numpy ccache \<br>python-opengl libgsl-dev python-cheetah python-mako \<br>python-lxml doxygen qt4-default qt4-dev-tools libusb-1.0-0-dev \<br>libqwt5-qt4-dev libqwtplot3d-qt4-dev pyqt4-dev-tools python-qwt5-qt4 \<br>cmake git-core wget libxi-dev python-docutils \<br>gtk2-engines-pixbuf r-base-dev python-tk \<br>liborc-0.4-0 liborc-0.4-dev libasound2-dev python-gtk2 \<br>libzmq-dev python-requests python-sphinx python-zmq \</p>
 <p>libncurses5 libncurses5-dev python-wxgtk3.0 python-scipy python-matplotlib</p>
@@ -123,7 +123,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/04/08/gnuradio_build/" data-id="cju8kdztx0001skvkgl0rqgb1" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/04/08/gnuradio_build/" data-id="cju8kgjkc000088vk0akvoqzw" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/communicate/">communicate</a></li></ul>
